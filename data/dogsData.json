@@ -1,0 +1,97 @@
+[
+  {
+    "id": 1,
+    "name": "Buddy",
+    "type": "Dog",
+    "breed": "Golden Retriever",
+    "price":"$340",
+    "age": 3,
+    "images":["http://localhost:8000/images/dog1.jpg",
+  "http://localhost:8000/images/dog1.jpg","http://localhost:8000/images/dog1.jpg","http://localhost:8000/images/dog1.jpg"],
+    "shopId":1
+  },
+  {
+    "id": 2,
+    "name": "Whisker",
+    "type": "Dog",
+    "breed": "Siamese",
+    "price":"$340",
+    "age": 2,
+    "images": [
+      "http://localhost:8000/images/dog2.jpg"
+    ],
+    "shopId":1
+  },
+  {
+    "id": 3,
+    "name": "Snowball",
+    "type": "Dog",
+    "breed": "Poodle",
+    "price":"$340",
+    "age": 1,
+    "images": [
+      "http://localhost:8000/images/dog6.jpeg"
+    ],
+    "shopId":1
+  },
+  {
+    "id": 4,
+    "name": "sheru",
+    "type": "Dog",
+    "breed": "Golden Retriever",
+    "price":"$340",
+    "age": 3,
+    "images": [
+      "http://localhost:8000/images/dog3.jpeg"
+    ],
+    "shopId":1
+  },
+  {
+    "id": 5,
+    "name": "Millie",
+    "type": "Cat",
+    "breed": "Ragdoll",
+    "price":"$99",
+    "age": 2,
+    "images": [
+      "http://localhost:8000/images/cat1.jpeg"
+    ],
+    "shopId":1
+  },
+  {
+    "id": 6,
+    "name": "Rubi",
+    "type": "Dog",
+    "breed": "Dwarf Rabbit",
+    "price":"$130",
+    "age": 1,
+    "images": [
+      "http://localhost:8000/images/dog4.jpeg"
+    ],
+    "shopId":3
+  },
+  {
+    "id": 7,
+    "name": "Chipi",
+    "type": "Cat",
+    "breed": "Siamese",
+    "price":"$240",
+    "age": 14,
+    "images": [
+      "http://localhost:8000/images/cat2.jpeg"
+    ],
+    "shopId":3
+  },
+  {
+    "id": 8,
+    "name": "Tuffy",
+    "type": "Dog",
+    "breed": "Siamese",
+    "price":"$330",
+    "age": 0.5,
+    "images": [
+      "http://localhost:8000/images/dog5.jpeg"],
+      "shopId":2
+    
+  }
+]
