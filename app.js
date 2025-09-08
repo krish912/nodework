@@ -8,7 +8,8 @@ app.use("/images", express.static('images'));
 //app.use(express.static('public'));
 
 app.use("/",myrouter);  
-app.listen(8000,(error)=>{
+const PORT = process.env.PORT || 8000;
+app.listen(PORT,(error)=>{
     if(!error)
         console.log("successfully launched on 8000 port");
     else                
