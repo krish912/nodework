@@ -12,9 +12,9 @@ const contactus=require('../controller/contactbyuser')
 const shopRoutes = require('../controller/petshop');
 
 
-router.get('/',exportuser.studentList)
-router.get('/getuserlist',exportuser.studentList)
-router.get('/getname',exportuser.studentList)
+//router.get('/',exportuser.studentList)
+//router.get('/getuserlist',exportuser.studentList)
+//router.get('/getname',exportuser.studentList)
 router.get('/pets/:id',getDogs.dogbyid)
 router.get('/dogsList',getDogs.dogList)
 router.get('/dogsList/:id',getDogs.finddogList)
