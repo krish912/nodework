@@ -1,16 +1,16 @@
 const userlist=require('../models/userlist')
-var mysql      = require('mysql');
-var con = mysql.createConnection({
-  host     : '127.0.0.1',
-  user     : 'root',
-  password : 'krish029',
-  database : 'sys'
-});
-con.connect(function(err) {
-    if (err) throw err;
-    //var sql = "INSERT INTO stuentdata (id, name) VALUES ('1', 'krish')";
+// var mysql      = require('mysql');
+// var con = mysql.createConnection({
+//   host     : '127.0.0.1',
+//   user     : 'root',
+//   password : 'krish029',
+//   database : 'sys'
+// });
+// con.connect(function(err) {
+//     if (err) throw err;
+//     //var sql = "INSERT INTO stuentdata (id, name) VALUES ('1', 'krish')";
   
-  });
+//   });
 const studentList=async(req,res)=>{
     try
     {
