@@ -1,7 +1,7 @@
-var MongoClient = require('mongodb').MongoClient;
-var url = "mongodb://localhost:27017";
-const client = new MongoClient(url);
-const dbName = 'local';
+// var MongoClient = require('mongodb').MongoClient;
+// var url = "mongodb://localhost:27017";
+// const client = new MongoClient(url);
+// const dbName = 'local';
 const dogsData=require('../data/dogsData.json');
 const fs=require('fs');
 const { message } = require('statuses');
