@@ -23,7 +23,7 @@ router.get('/petShops/:id',shopRoutes.petShopById)
 router.get('/findingrecord',findstu.findingRec)
 
 router.post('/getuserdata1',getuser1.SearchuserData1)
-router.post('/poststudentlist',exportuser.PoststudentList)
+//router.post('/poststudentlist',exportuser.PoststudentList)
 router.post('/getuserdata',getuser.SearchuserData)
 //router.post('/createCourse',exportuser1.coursesList)
 router.post('/studentData',student1.studentdata)
