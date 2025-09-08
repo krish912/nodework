@@ -6,13 +6,14 @@ const contactByUser = async (req, res) => {
         console.log(name,email,message)
         console.log("body:",req.body)
 
-        var transporter = nodemailer.createTransport({
-            service: 'gmail',
-            auth: {
-              user: 'arorakrish912@gmail.com',
-              pass: 'loxwtgbiaxkzxcwl'
-            }
-          });
+     const transporter = nodemailer.createTransport({
+  service: 'gmail',
+  auth: {
+    user: process.env.EMAIL_USER,
+    pass: process.env.EMAIL_PASS
+  }
+});
+
        console.log("email in contact by user is",email)
           var mailOptions = {
             from: 'arorakrish912@gmail.com',
